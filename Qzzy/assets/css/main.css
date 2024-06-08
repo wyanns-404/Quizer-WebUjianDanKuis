@@ -73,3 +73,48 @@ header {
     height: 100vh;
     padding: 10px;
 }
+
+.container-main .title {
+    text-align: center;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.container-main .kategori {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.container-main .kategori .kategori-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: ease 0.3s;
+}
+
+.container-main .kategori .kategori-item:hover {
+    transform: scale(1.1);
+    transition: ease 0.3s;
+}
+
+.container-main .kategori .kategori-item .kategori-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.container-main .kategori .kategori-item .kategori-title {
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 0.7;
+}
