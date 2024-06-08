@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #6A0DAD;
+    --secondary-color: #FFC107;
+    --background-color: #FFFFFF;
+    --secondary-background-color: #f2f2f2;
+    --text-color: #212121;
+    --success-color: #00C853;
+}
+
+header {
+    background-color: var(--background-color);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav .enter-code {
+    background-color: var(--secondary-background-color);
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav .login {
+    background-color:#e6d0f6;
+    color: var(--primary-color);
+    opacity: 0.5;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav .signup {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    opacity: 0.8;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-main {
+    background-color: var(--secondary-background-color);
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+}
