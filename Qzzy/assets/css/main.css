@@ -81,7 +81,7 @@ header {
 
 .container-main .title {
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 24px;
     margin: 20px;
 }
@@ -89,7 +89,7 @@ header {
 .container-main .kategori {
     display: flex;
     justify-content: space-between;
-    margin: 10px 0px 10px 0px;
+    margin: -15px 0px 10px 0px;
     padding: 20px;
     cursor: pointer;
 }
