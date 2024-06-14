@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             echo "
             <script>
                 alert('Added Successfully!');
-                window.location.href = 'http://localhost/online-quiz-system/quiz.php';
+                window.location.href = 'http://localhost/qzzy/quiz.php';
             </script>
             ";
             exit();
@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "
         <script>
             alert('Please fill in both the title and content fields.');
-            window.location.href = 'http://localhost/online-quiz-system/quiz.php';
+            window.location.href = 'http://localhost/qzzy/quiz.php';
         </script>
         ";
     }

@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
             $stmt->execute();
 
             // Redirect back to the quiz page
-            header("Location: http://localhost/online-quiz-system/quiz.php");
+            header("Location: http://localhost/qzzy/quiz.php");
             exit();
         } catch (PDOException $e) {
             echo 'Database Error: ' . $e->getMessage();
