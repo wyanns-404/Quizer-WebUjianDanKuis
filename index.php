@@ -1,6 +1,6 @@
 <?php
 include('./partials/header.php');
-include('./conn/conn.php');
+include('./db/db.php');
 ?>
 
 <div class="main">

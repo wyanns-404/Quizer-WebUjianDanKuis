@@ -1,5 +1,5 @@
 <?php
-include("../conn/conn.php");
+include('../db/db.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['quiz_question'], $_POST['option_a'], $_POST['option_b'], $_POST['option_c'], $_POST['option_d'], $_POST['correct_answer'])) {

@@ -1,5 +1,5 @@
 <?php
-include("../conn/conn.php");
+include('../db/db.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     if (isset($_GET['question'])) {

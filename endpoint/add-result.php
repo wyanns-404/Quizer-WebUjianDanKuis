@@ -1,5 +1,5 @@
 <?php
-include("../conn/conn.php");
+include('../db/db.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['quiz_taker'], $_POST['year_section'])) {
